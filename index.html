@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Chidiebere Nwolise</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content="Chidiebere Nwolise is a Frontend Developer and UI/UX Designer helping startups build fast, responsive, and user-friendly digital products. View projects, skills, and services.">
+        <meta name="keywords" content="Chidiebere Nwolise, Frontend Developer for Tech Startups, UI/UX Designer, Tech Startup Web Design, Responsive Web Developer, SaaS Product Design, Startup MVP Developer, HTML CSS JavaScript Developer, Web Developer Nigeria, Freelance UI Designer, Tech Product Portfolio, Agile Frontend Developer, Developer for Startups, Mobile-Friendly Design, Startup App Design, UX for Tech Startups">
+
+        <!-- Favicons -->
+        <link href="img/webLogo.png" rel="icon">
+
+        <!--Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <link rel="stylesheet" href="main.css">
+
+        <!--Glightbox-->
+        <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup" data-bs-offset="70" tabindex="0">
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-scroll" id="mainNavbar">
+                <div class="container d-flex flex-lg-row align-items-center justify-content-between">
+
+                    <!-- Logo -->
+                    <a class="navbar-brand me-auto mx-lg-0" href="#">
+                        <img class="logo img-fluid" src="img/webLogo.png" alt="logo1" style="max-height: 60px;">
+                    </a>
+
+                    <!-- Hamburger Toggler -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Desktop Nav Links -->
+                    <div class="d-none d-lg-block">
+                        <ul class="navbar-nav d-flex flex-row gap-4 justify-content-center">
+                            <li><a class="nav-link" href="#about">About</a></li>
+                            <li><a class="nav-link" href="#services">Services</a></li>
+                            <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li><a class="nav-link" href="#blog">Blog</a></li>
+                            <li><a class="nav-link" href="#contact">Contact</a></li>
+                            <button id="themeToggle" aria-label="Toggle Dark/Light Mode">
+                                <i class="fas fa-sun"></i>
+                            </button>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Offcanvas for Mobile -->
+                    <div class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header d-flex justify-content-end">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav text-center">
+                                <li><a class="nav-link text-white" href="#about">About</a></li>
+                                <li><a class="nav-link text-white" href="#services">Services</a></li>
+                                <li><a class="nav-link text-white" href="#portfolio">Portfolio</a></li>
+                                <li><a class="nav-link text-white" href="#blog">Blog</a></li>
+                                <li><a class="nav-link text-white" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-section w-100 vh-100 d-flex justify-content-start align-items-end" id="hero">
+                <div class="container d-flex flex-column align-item-start justify-content-center">
+                    <h1 class="name text-white display-3 display-md-2 display-lg-1 fw-bold">Chidiebere Nwolise</h1>
+                    <p class="fs-2">I'm <span id="typed-text"> a Freelancer</span></p>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-linkedin-in fs-2 mx-2"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter fs-2 mx-2"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram fs-2 mx-2"></i></a>
+                        <a href=""><i class="fa-brands fa-github fs-2 mx-2"></i></a>
+                    </div>
+                    <div class="btn-container ">
+                        <a href="#portfolio" class="btn">View My Work</a>
+                        <a href="docx/CHIDIEBERE JOHNBOSCO NWOLISE CV.pdf" class="btn" download>Download Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-section py-5" id="about">
+                <div class="container">
+
+                    <div class="txt-wrapper text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-3 ">
+                            About
+                        </h2>
+                        <span data-aos="zoom-in" class="background-text d-none d-md-block">About</span>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <!-- Image Column -->
+                        <div class="col-md-6 mb-4 mb-md-0 p-0 text-center" data-aos="fade-right" data-aos-delay="100">
+                            <img class="img-fluid w-100 h-100 object-fit-cover rounded" src="img/abtwebman.png" alt="Profile Image">
+                        </div>
+
+                        <!-- Text Column -->
+                        <div class="col-md-6"  data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="mb-4 text-justify fs-3 fw-semibold"> 
+                            I empower startups and NGOs with pixel-perfect UI and human-centered UX.
+                            </h3>
+                            <p class="truncate-about text-justify fs-5 text-unmuted" id="textContent">
+                                I’m Chidiebere Johnbosco Nwolise, a UI/UX designer and BSc Computer Science graduate from Landmark University 
+                                who blends technical know-how with creative flair. With strong HTML/CSS chops, growing JavaScript skills, 
+                                and a background in data analysis and IT administration, I partner with startups and mission-driven nonprofits 
+                                to craft intuitive, inclusive interfaces that solve real problems and spark joy. Guided by empathy and 
+                                playful experimentation, I dive deep into user needs and iterate boldly to deliver impactful digital experiences. 
+                                Every project is fueled by my relentless curiosity and commitment to driving real-world results, 
+                                whether that’s boosting engagement, streamlining workflows, or championing social change.
+                                <br><br>
+                                <strong>I love clean, simple & unique design.</strong>
+                                <br><br>
+                                I deliver end-to-end digital solutions—from crafting intuitive UI/UX and responsive front-ends 
+                                to providing reliable IT support, actionable data analysis, and strategic product management
+                            </p>
+                            <div class="btn-container">
+                                <button id="toggleBtn" class="btn">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="services-section" id="services">
+                <div class="container">
+
+                    <div class="txt-wrapper text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-3">
+                            Services
+                        </h2>
+                        <span data-aos="zoom-in" class="background-text d-none d-md-block">Service</span>
+                    </div>
+
+                    <div class="row gy-4">
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="fa-solid fa-pen-nib"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">UI Design</h3>
+                                <p class="description fs-5">Crafting visually engaging interfaces that balance aesthetics with functionality, ensuring every screen guides users effortlessly toward their goals.</p>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="fa-solid fa-chart-diagram"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">UX Design</h3>
+                                <p class="description fs-5">Mapping out intuitive journeys rooted in empathy and research, so each interaction feels natural, meaningful, and delightful.</p>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon"><i class="fa-solid fa-computer"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">IT Support</h3>
+                                <p class="description fs-5">Providing dependable technical assistance and infrastructure management, so teams stay productive and systems run smoothly.</p>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">Frontend Development</h3>
+                                <p class="description fs-5">Turning designs into responsive, high-performance web experiences using HTML, CSS, and emerging JavaScript skills.</p>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">Data Analytics</h3>
+                                <p class="description fs-5">Transforming raw data into actionable insights, empowering decision-makers with clear visualizations and evidence-based recommendations.</p>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                        <div class="skill-set col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                            <div class="icon"><i class="fa-solid fa-list-check"></i></div>
+                            <div>
+                                <h3 class="title fs-3 fw-semibold">Product Management</h3>
+                                <p class="description fs-5">Orchestrating cross-functional teams, prioritizing features, and aligning roadmaps with user needs and business objectives to deliver impactful products.</p>
+                            </div>
+                        </div><!-- End Service Item -->
+
+                    </div>
+                </div>
+            </section>
+           
+            <section class="portfolio-section" id="portfolio">
+                <div class="container">
+                    <div class="txt-wrapper text-center" data-aos="fade-up" data-aos-delay="00">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-3">
+                            Portfolio
+                        </h2>
+                        <span data-aos="zoom-in" class="background-text d-none d-md-block">Portfolio</span>
+                    </div>
+
+                  
+                    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-product">Product</li>
+                            <li data-filter=".filter-branding">Branding</li>
+                        </ul><!-- End Portfolio Filters -->
+
+                        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/app-1.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>App 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                     
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/app-3.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Product 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/branding-1.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Branding 1</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/books-2.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>UI Basics</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                            
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/app-2.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Product 2</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                     
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                                <div class="portfolio-content h-100">
+                                    <img src="img/portfolio/product-2.jpg" class="img-fluid rounded glightbox" data-gallery="portfolio-gallery" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Product 3</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                        <div class="icon-wrapper">
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">View Image</span>
+                                                <a href="img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                            </div>
+                                            <div id="tooltip2">
+                                                <span id="tooltiptxt2">More Details</span>
+                                                <a href="portfolio-details.html" title="" class="details-link"><i class="fa-solid fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div><!-- End Portfolio Item -->
+
+                        </div><!-- End Portfolio Container -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials-section" id="testimonials">
+                <div class="container">
+                    
+                    <div class="txt-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-3">Client Feedback</h2>
+                    </div>
+                    <div class="page-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="carousel-container">
+                        <div class="carousel-slides" id="carousel">
+                            <div class="carousel-slide">
+                            <figure class="quote">
+                                <blockquote>
+                                Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts...
+                                I wonder why we think faster than we speak.
+                                Hobbes: Probably so we can think twice.
+                                <div class="arrow"></div>
+                                </blockquote>
+                                <div class="author-wrapper" data-aos="fade-up" data-aos-delay="200">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
+                                    <div class="author">
+                                        <h5>Pelican Steve <br><span> LIttleSnippets.net</span></h5>
+                                    </div>
+                                </div>
+                                
+                            </figure>
+                            </div>
+
+                            <div class="carousel-slide">
+                            <figure class="quote">
+                                <blockquote>
+                                Thank you. Before I begin, I'd like everyone to notice that my report is in a professional,
+                                clear plastic binder...When a report looks this good, you know it'll get an A. That's a tip kids.
+                                Write it down.
+                                <div class="arrow"></div>
+                                </blockquote>
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
+                                <div class="author">
+                                <h5>Max Conversion <br><span> LIttleSnippets.net</span></h5>
+                                </div>
+                            </figure>
+                            </div>
+
+                            <div class="carousel-slide">
+                            <figure class="quote">
+                                <blockquote>
+                                My behaviour is addictive functioning in a disease process of toxic co-dependency.
+                                I need holistic healing and wellness before I'll accept any responsibility for my actions.
+                                <div class="arrow"></div>
+                                </blockquote>
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                                <div class="author">
+                                <h5>Eleanor Faint <br><span> LIttleSnippets.net</span></h5>
+                                </div>
+                            </figure>
+                            </div>
+
+                            <div class="carousel-slide">
+                            <figure class="quote">
+                                <blockquote>
+                                My behaviour is addictive functioning in a disease process of toxic co-dependency.
+                                I need holistic healing and wellness before I'll accept any responsibility for my actions.
+                                <div class="arrow"></div>
+                                </blockquote>
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                                <div class="author">
+                                <h5>Eleanor Faint <br><span> LIttleSnippets.net</span></h5>
+                                </div>
+                            </figure>
+                            </div>
+
+                            <div class="carousel-slide">
+                            <figure class="quote">
+                                <blockquote>
+                                My behaviour is addictive functioning in a disease process of toxic co-dependency.
+                                I need holistic healing and wellness before I'll accept any responsibility for my actions.
+                                <div class="arrow"></div>
+                                </blockquote>
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
+                                <div class="author">
+                                <h5>Eleanor Faint <br><span> LIttleSnippets.net</span></h5>
+                                </div>
+                            </figure>
+                            </div>
+                        </div>
+
+                        <div class="carousel-buttons">
+                            <button onclick="prevSlide()">❮</button>
+                            <button onclick="nextSlide()">❯</button>
+                        </div>
+
+                        <div class="carousel-indicators" id="indicators">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          
+            <section class="blog-section" id="blog">
+                <div class="container">
+                    <div class="txt-wrapper text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-3">
+                            Blog
+                        </h2>
+                        <span data-aos="zoom-in" class="background-text d-none d-md-block">BLOG</span>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card h-100">
+                                <img src="img/portfolio/books-3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="truncate card-text">This card has even longer content than the first to show that equal height action.
+                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    </p>
+                                    <a href="#" class="btn-read-more">Read more <span class="arrow"></span></a>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card h-100">
+                                <img src="img/portfolio/branding-2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="truncate card-text">This card has even longer content than the first to show that equal height action. 
+                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    </p>
+                                    <a href="#" class="btn-read-more">Read more <span class="arrow"></span></a>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card h-100">
+                                <img src="img/portfolio/product-3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="truncate card-text"> This card has even longer content than the first to show that equal height action.
+                                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    </p>
+                                    <a href="#" class="btn-read-more">Read more <span class="arrow"></span></a>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact-section" id="contact">
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="txt-wrapper text-center">
+                        <h2 class="section-title position-absolute top-50 start-50 translate-middle z-3 fw-bold display-4 display-md-2 display-lg-">
+                            Contact
+                        </h2>
+                        <span data-aos="zoom-in" class="background-text d-none d-md-block">Contact</span>
+                    </div>
+
+            
+                    <div class="info-wrap" data-aos="fade-up" data-aos-delay="300">
+                        <div class="row gy-5">
+
+                            <div class="col-lg-4">
+                                <div class="info-item d-flex align-items-center">
+                                    <a href="https://shorturl.at/sV4lw" target="blank" class="map"><i class="fa-solid fa-map-location-dot"></i></a>
+                                    <div>
+                                        <h4>Address</h4>
+                                        <p>Abuja, Nigeria</p>
+                                    </div>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="col-lg-4">
+                                <div class="info-item d-flex align-items-center">
+                                    <a href="tel:+2348012345678" id="phone-link"><i class="fa-solid fa-phone"></i></a>
+                                    <div>
+                                        <h4>Call<br></h4>
+                                        <p>+234 806 8040 468</p>
+                                    </div>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="col-lg-4">
+                                <div class="info-item d-flex align-items-center">
+                                    <a href="mailto:info@chidiebere.design"><i class="fa-solid fa-envelope"></i></a>
+                                    <div>
+                                        <h4>Email</h4>
+                                        <p>info@chidiebere.design</p>
+                                    </div>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                        </div>
+                    </div>
+
+                    <form action="forms/contact.php" method="post" class="form" data-aos="fade-up" data-aos-delay="300">
+                        <div class="row gy-4">
+
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            </div>
+
+                            <!--<div class="col-md-12 text-center">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>-->
+
+                                <button id="toggleBtn" class="btn">Send Message</button>
+                            </div>
+
+                        </div>
+                    </form><!-- End Contact Form -->
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer light-background">
+            <div class="container text-center justify-content-center align-item-center">
+                <div id="tooltip">
+                    <span id="tooltiptxt">Return to Top</span>
+                    <a href="#hero"><img id="" class="logo2" src="img/webLogo.png" alt="logo" data-aos="fade" data-aos-duration="10000"></a>
+                </div>
+                
+                <p>Designing intuitive journeys and strategic roadmaps for startups and nonprofits to thrive.</p>
+                <div class="social-links d-flex justify-content-center">
+                    <a href=""><i class="fa-brands fa-x-twitter" data-aos="fade-up" data-aos-delay="200"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram" data-aos="fade-up" data-aos-delay="300"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f" data-aos="fade-up" data-aos-delay="400"></i></a>
+                    <a href=""><i class="fa-brands fa-skype" data-aos="fade-up" data-aos-delay="500"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in" data-aos="fade-up" data-aos-delay="600"></i></a>
+                </div>
+                <div class="container" data-aos="fade" data-aos-duration="11000">
+                    <div class="copyright" data-aos="fade-up" data-aos-delay="700">
+                        <span>Copyright</span> <strong class="px-1 sitename">Chidiebere J. Nwolise</strong> <span>All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <img src="img/webLogo.png" alt="Logo" class="preloader-logo" />
+        </div>
+
+
+        <!-------------------------------------------------------------------------------------------
+        JavaScript Section
+        -------------------------------------------------------------------------------------------->
+       <!--GLightbox Librabries-->
+        <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous">
+        </script>
+
+        <!-- AOS Libraries-->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+        <!--Isotope Libraries-->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>
